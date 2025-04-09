@@ -22,24 +22,24 @@ def recommend():
     try:
         assessments = ai_recommend_assessments(query)
 
-        # 🔁 Format result to match assessor expectations
         formatted = []
-        for item in assessments[:10]:  # Limit to max 10
+        for item in assessments[:10]:  # Return at most 10
             formatted.append({
                 "url": item.get("URL", "").strip(),
                 "adaptive_support": item.get("Adaptive/IRT Support", "No").strip(),
-                "description": item.get("Skills Assessed", "").strip(),
+                "description": item.get("Skills Assessed", "").strip(),  # Mapped to 'description'
                 "duration": extract_duration(item.get("Duration", "")),
                 "remote_support": item.get("Remote Testing Support", "No").strip(),
                 "test_type": [item.get("Test Type", "").strip()]
             })
 
         return jsonify({"recommended_assessments": formatted}), 200
+
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
 
-# ✅ Helper to extract integer duration from "30 mins" etc.
+# ✅ Extract number from duration like "30 mins"
 def extract_duration(duration_str):
     try:
         if isinstance(duration_str, str) and "min" in duration_str.lower():
