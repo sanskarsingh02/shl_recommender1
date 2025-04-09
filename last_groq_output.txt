@@ -1,0 +1,4 @@
+"Assessment Name","URL","Skills Assessed","Duration","Test Type","Remote Testing Support","Adaptive/IRT Support"
+"Python Programming Skills Assessment","https://www.shl.com/pythonskills","Python programming","40 minutes","Knowledge and Application","Yes","No"
+"Programming Logic Test","https://www.shl.com/programminglogic","Programming logic, problem-solving skills","35 minutes","Ability","Yes","Yes"
+"English Language Proficiency Test","https://www.shl.com/englishlanguage","English writing and communication skills","45 minutes","Language Proficiency","Yes","No"

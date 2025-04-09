@@ -1,0 +1,6 @@
+Assessment Name,URL,Skills,Remote Testing Support,Adaptive/IRT Support,Duration,Test Type
+Cognitive Ability Test,https://www.shl.com/cognitive,"Measures logical, numerical, and verbal reasoning skills",Yes,Yes,30 mins,Cognitive
+Personality Test,https://www.shl.com/personality,"Assesses personality traits and behavioral style",Yes,No,25 mins,Personality
+Coding Simulation - Java,https://www.shl.com/java-coding,"Assesses Java programming and debugging skills",Yes,Yes,45 mins,Coding
+Technical Test - Full Stack,https://www.shl.com/fullstack,"Tests front-end, back-end and database knowledge",Yes,Yes,60 mins,Coding
+Business Communication,https://www.shl.com/business-comms,"Evaluates written and verbal communication in a corporate setting",Yes,No,20 mins,Communication
