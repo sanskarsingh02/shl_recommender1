@@ -3,7 +3,7 @@ import streamlit as st
 import requests
 from app.utils import extract_job_description_from_url
 
-FLASK_URL = "http://localhost:5000"
+FLASK_URL = "https://shl-recommender1.onrender.com"
 
 st.set_page_config(page_title="SHL Recommender", layout="centered")
 
